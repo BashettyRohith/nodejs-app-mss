@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "This Project explains all Node JS examples",
   "main": "app.js",
+  
+   "publishConfig": {
+    "registry": "http://3.110.213.216:9980/rohith/repository/nodejsrepo-mss/"
+  },
   "scripts": {
     "server": "http-server -c-1 -p 9999",
     "start1": "nodemon app.js",
